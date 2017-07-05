@@ -12,3 +12,7 @@ PREPROC = humanfmri_functional_1_dicom2nifti(subject_dir, 1:4, 22);
 PREPROC = humanfmri_functional_2_implicitmask_savemean(subject_dir, 1:4);
 
 PREPROC = humanfmri_structural_2_coregistration(subject_dir);
+
+% humanfmri_structural_3_reorientation(subject_dir)
+
+PREPROC = humanfmri_structural_5_segment(subject_dir, 'woreorient')
